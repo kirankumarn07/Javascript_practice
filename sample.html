@@ -1,0 +1,59 @@
+<html>
+
+<body>
+    <!-- <button id="clickme" onclick="msg()">clickme</button> -->
+    <!-- <script src="sample.js"></script> -->
+    <script>
+        // function msg(){
+        //     alert("hi kiran")
+        // }
+        // function msg(){
+        //     var a=confirm("are you sure");
+        //     if(a==true){
+        //         alert("ok");
+        //     }else{
+        //         alert("cancel")
+        //     }
+        // }
+        // function msg(){
+        //     var a=prompt("Where are you from");
+        //     alert("I am from"+a);
+        // }
+        // function msg(){
+        //     open("https://www.hotstar.com/in");
+        // }
+        // function time(){
+        //     a= prompt("where are you now")
+        //     setTimeout(
+        //         function(){
+
+        //             alert("Iam in" +a)
+        //         },2000
+        //     )
+        // }
+        // function printvalue(){
+        //    var name1=document.form1.name.value;
+        //    alert("Welcome to india:"+name1)
+        // }
+        // function getCube(){
+        //     var num=document.getElementById("cube").value;
+        //     alert(num*num*num);
+        // }
+        // function gettag(){
+        //     var tags=document.getElementsByTagName("p");
+        //     alert("total p tags"+tags.length)
+        // }
+        function showcomment(){
+            var data="Name:<br><input type='text' name='name'><br>Comment:<br><textarea rows='5' cols='50'></textarea><br><input type='button' value='Post submit'>"
+            document.getElementById("kiran").innerHTML=data;
+        }
+       
+    </script>
+
+    <form action="">
+        <input type="button" value="comment" onclick="showcomment()"/>
+        <div id="kiran"></div>
+    </form>
+</body>
+
+</html>
